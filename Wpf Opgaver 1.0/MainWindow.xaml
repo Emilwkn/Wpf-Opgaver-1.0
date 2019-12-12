@@ -27,10 +27,10 @@
 
         <Button x:Name="ButtonOpg12" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="0" Content="Opgave 1.2" Click="ButtonOpg12_Click"></Button>
         <Button x:Name="ButtonOpg13" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="1" Content="Opgave 1.3" Click="ButtonOpg13_Click"></Button>
-        <Button x:Name="ButtonOpg14" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="2" Content="Opgave 1.4"></Button>
-        <Button x:Name="ButtonOpg15" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="3" Content="Opgave 1.5"></Button>
-        <Button x:Name="ButtonOpg16" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="4" Content="Opgave 1.6"></Button>
-        <Button x:Name="ButtonOpg17" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="5" Content="Opgave 1.7"></Button>
+        <Button x:Name="ButtonOpg14" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="2" Content="Opgave 1.4" Click="ButtonOpg14_Click"></Button>
+        <Button x:Name="ButtonOpg15" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="3" Content="Opgave 1.5" Click="ButtonOpg15_Click"></Button>
+        <Button x:Name="ButtonOpg16" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="4" Content="Opgave 1.6" Click="ButtonOpg16_Click"></Button>
+        <Button x:Name="ButtonOpg17" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="5" Content="Opgave 1.7" Click="ButtonOpg17_Click"></Button>
         <Button x:Name="ButtonOpg18" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="6" Content="Opgave 1.8"></Button>
         <Button x:Name="ButtonOpg19" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="7" Content="Opgave 1.9"></Button>
         <Button x:Name="ButtonOpg110" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="8" Content="Opgave 1.10"></Button>
