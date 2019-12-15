@@ -56,5 +56,15 @@ namespace Wpf_Opgaver_1._0
         {
             classBIZ.Delopgave17(listBoxRes);
         }
+
+        private void ButtonOpg18_Click(object sender, RoutedEventArgs e)
+        {
+            classBIZ.Delopgave18();
+        }
+
+        private void ButtonOpg19_Click(object sender, RoutedEventArgs e)
+        {
+            classBIZ.Delopgave19(listBoxRes);
+        }
     }
 }

@@ -31,8 +31,8 @@
         <Button x:Name="ButtonOpg15" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="3" Content="Opgave 1.5" Click="ButtonOpg15_Click"></Button>
         <Button x:Name="ButtonOpg16" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="4" Content="Opgave 1.6" Click="ButtonOpg16_Click"></Button>
         <Button x:Name="ButtonOpg17" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="5" Content="Opgave 1.7" Click="ButtonOpg17_Click"></Button>
-        <Button x:Name="ButtonOpg18" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="6" Content="Opgave 1.8"></Button>
-        <Button x:Name="ButtonOpg19" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="7" Content="Opgave 1.9"></Button>
+        <Button x:Name="ButtonOpg18" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="6" Content="Opgave 1.8" Click="ButtonOpg18_Click"></Button>
+        <Button x:Name="ButtonOpg19" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="7" Content="Opgave 1.9" Click="ButtonOpg19_Click"></Button>
         <Button x:Name="ButtonOpg110" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="8" Content="Opgave 1.10"></Button>
 
         <ListBox x:Name="listBoxRes" Grid.Row="0" Grid.Column="1" Grid.RowSpan="10" Margin="5"></ListBox>

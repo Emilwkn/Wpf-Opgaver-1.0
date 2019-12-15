@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
+using System.Windows.Media;
 
 namespace Wpf_Opgaver_1._0.Biz
 {
@@ -24,7 +25,7 @@ namespace Wpf_Opgaver_1._0.Biz
         {
             ClearList(listBox);
 
-            for (int i= 4711; i < 4737; i++)
+            for (int i = 4711; i < 4737; i++)
             {
                 listBox.Items.Add(i.ToString());
             }
@@ -127,7 +128,7 @@ namespace Wpf_Opgaver_1._0.Biz
         {
             Random random = new Random();
             List<int> listInt = new List<int>();
-            
+
 
             ClearList(listBox);
 
@@ -144,6 +145,7 @@ namespace Wpf_Opgaver_1._0.Biz
             }
         }
         //--------------------------------------------------------
+        //opgave 1.8
         public List<string> Delopgave18()
         {
             Random random = new Random();
@@ -168,6 +170,76 @@ namespace Wpf_Opgaver_1._0.Biz
             }
 
             return listRes;
+        }
+        //-----------------------------------------------------------------------
+        //opgave 1.9
+        public void Delopgave19(ListBox listBox)
+        {
+            Random random = new Random();
+            List<int> listInt = new List<int>();
+            int intAverage = 0;
+
+            ClearList(listBox);
+
+            for (int i = 0; i < 25; i++)
+            {
+                int randomTal = random.Next(100000, 1000001);
+                listInt.Add(randomTal);
+            }
+            intAverage = GetAvarageValue(listInt);
+
+            listInt.Sort();
+
+            foreach (int tal in listInt)
+            {
+                ListBoxItem listBoxItem = new ListBoxItem();
+                if ((tal % 2) != 0)
+                {
+                    listBoxItem.Background = Brushes.AliceBlue;
+                }
+                else
+                {
+                    listBoxItem.Background = Brushes.HotPink;
+                }
+
+                listBoxItem.Content = $"{tal} - {intAverage} = {tal - intAverage}";
+                listBox.Items.Add(listBoxItem);
+            }
+        }
+        //----------------------------------------------------------------------------
+        //Opgave 1.10
+        public void Delopgave110(ListBox listBox)
+        {
+            Random random = new Random();
+            List<int> listInt = new List<int>();
+            int intAverage = 0;
+
+            ClearList(listBox);
+
+            for (int i = 0; i < 25; i++)
+            {
+                int randomTal = random.Next(100000, 1000001);
+                listInt.Add(randomTal);
+            }
+            intAverage = GetAvarageValue(listInt);
+
+            listInt.Sort();
+
+            foreach (int tal in listInt)
+            {
+                ListBoxItem listBoxItem = new ListBoxItem();
+                if ((tal % 2) != 0)
+                {
+                    listBoxItem.Background = Brushes.AliceBlue;
+                }
+                else
+                {
+                    listBoxItem.Background = Brushes.HotPink;
+                }
+
+                listBoxItem.Content = $"{tal} - {intAverage} = {tal - intAverage}";
+                listBox.Items.Add(listBoxItem);
+            }
         }
     }
 }
